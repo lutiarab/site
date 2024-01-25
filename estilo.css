@@ -4,3 +4,19 @@ body{
     font-size: 18px;
     color: rgb(0, 0, 0);
 }
+header{
+    background-color: rgb(179, 153, 204);
+}
+header a{
+    color:rgb(44, 3, 85);
+    text-decoration: none;
+}
+article a{
+    background-color: rgb(179, 153, 204);
+    color:rgb(44, 3, 85);
+    text-decoration: none;
+}
+footer{
+    background-color: rgb(179, 153, 204);
+    color: rgb(36, 3, 70);
+}
