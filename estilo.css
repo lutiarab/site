@@ -15,7 +15,7 @@ body{
     color:rgb(44, 3, 85);
     text-decoration: none;
 }
-article a{
+.botao{
     background-color: rgb(179, 153, 204);
     color:rgb(44, 3, 85);
     text-decoration: none;
@@ -26,10 +26,24 @@ article a{
     color: rgb(36, 3, 70);
     padding: 30px;
 }
-article{
+.materia{
     background-color: rgb(133, 112, 168);
     padding: 30px;
     margin-bottom: 30px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+.menu li{
+    margin-right: 20px;
+}
+.navegacao{
+    display: flex;
+}
+.menu a:hover{
+    color: black;
 }
 main{
     padding: 30px;
