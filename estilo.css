@@ -1,50 +1,90 @@
 *{
     margin: 0;
 }
+
 body{
     background-color: rgb(165, 135, 194);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
     color: rgb(0, 0, 0);
 }
+
 .topo{
     background-color: rgb(179, 153, 204);
     padding: 30px;
 }
+
 .topo a{
     color:rgb(44, 3, 85);
     text-decoration: none;
 }
+
 .botao{
     background-color: rgb(179, 153, 204);
     color:rgb(44, 3, 85);
     text-decoration: none;
     padding: 30px;
+    display: inline-block;
 }
+
 .rodape{
     background-color: rgb(179, 153, 204);
     color: rgb(36, 3, 70);
     padding: 30px;
+    text-align: center;
 }
+
 .materia{
     background-color: rgb(133, 112, 168);
     padding: 30px;
     margin-bottom: 30px;
+    width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.materia h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.materia img{
+    width: 600px;
+    margin-bottom: 20px;
+}
+
 .menu{
     display: flex;
     list-style: none;
     margin-left: auto;
 }
+
 .menu li{
     margin-right: 20px;
 }
+
 .navegacao{
     display: flex;
 }
+
 .menu a:hover{
     color: black;
 }
+
+.titulo{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.texto{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+    color: rgb(41, 40, 40);
+}
+
 main{
     padding: 30px;
 }
