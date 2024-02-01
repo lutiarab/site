@@ -25,6 +25,11 @@ body{
     text-decoration: none;
     padding: 30px;
     display: inline-block;
+    border-radius: 20px;
+}
+
+.botao:hover{
+    background-color: rgba(0, 0, 0, 0.137);
 }
 
 .rodape{
@@ -83,6 +88,12 @@ body{
     margin-bottom: 30px;
     font-size: 25px;
     color: rgb(41, 40, 40);
+}
+
+.grade{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(700px,1fr));
+    gap: 20px;
 }
 
 main{
