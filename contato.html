@@ -26,10 +26,44 @@
 
     <main>
 
-                 <!--comentário e subtitulo-->
-                    <h1 class="titulo">contato</h1> 
-                    <p class="texto">Aqui você verá a melhor forma e maneira de vencer obstáculos </p> 
+        <!--comentário e subtitulo-->
+            <h1 class="titulo">contato</h1> 
+            <p class="texto">Aqui você verá a melhor forma e maneira de vencer obstáculos </p> 
 
+        <!--corpo do formulário-->        
+        <form class="contato">
+            <!--campos do formulário-->
+            <!--campo Nome-->
+            <label class="rotulo">
+                Nome
+                <input type="text" class="campo">
+            </label>
+
+            <!--campo E-mail-->
+            <label class="rotulo">
+                E-mail
+                <input type="text" class="campo">
+            </label>
+
+            <!--campo assunto-->
+            <label class="rotulo">
+                Assunto
+                <select class="campo">
+                    <option>Duvidas</option>
+                    <option>Sugestões</option>
+                    <option>Críticas</option>
+                </select>
+            </label>
+
+            <!--campo mensagem-->
+            <label class="rotulo">
+                Mensagem
+                <textarea class="campo"></textarea>
+            </label>
+
+            <!--Botão enviar-->
+            <button class="botao">Enviar</button>
+        </form>        
     </main>
 
     <!--rodaper-->
