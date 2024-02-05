@@ -116,6 +116,7 @@ main{
     padding-left: 10px;
     border : none;
     background-color: rgb(190, 186, 186);
+    border-radius: 10px;
 }
 
 .contato{
@@ -131,7 +132,12 @@ textarea.campo{
     padding: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 .campo:focus{
-    background-color: #eeeee;
+    background-color: #eeee;
     outline: none;
+}
+
+.mapa{
+    width: 100%;
 }
