@@ -12,8 +12,8 @@ body{
 
 .topo{
     background-color: rgb(179, 153, 204);
-    padding: 30px;
-    font-size: 11px; /*--adicionado para resolução 320*/
+    padding: 18px;
+    font-size: 9px; /*--adicionado para resolução 320*/
 }
 
 .topo a{
@@ -55,7 +55,7 @@ body{
 
 .materia h1{
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .materia img{
@@ -83,13 +83,13 @@ body{
 .titulo{
     text-align: center;
     margin-bottom: 10px;
-    font-size: 40px;
+    font-size: 46px;
 }
 
 .texto{
     text-align: center;
     margin-bottom: 30px;
-    font-size: 25px;
+    font-size: 24px;
     color: rgb(41, 40, 40);
 }
 
@@ -100,7 +100,7 @@ body{
 }
 
 main{
-    padding: 30px;
+    padding: 10px;
 }
 
 .rotulo{
@@ -142,4 +142,15 @@ textarea.campo{
 
 .mapa{
     width: 100%;
+}
+
+@media (min-width: 768px){
+
+    .topo a {
+        font-size: 18px;
+    }
+
+    .materia h1{
+        font-size: 30px;
+    }
 }
