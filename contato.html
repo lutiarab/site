@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0">
     <link href="estilo.css" rel="stylesheet">
     <!--<link> criar um vinculo com um arquivo através do atributo href, e o-->
     <title>Você que luti</title>
@@ -28,21 +28,21 @@
 
         <!--comentário e subtitulo-->
             <h1 class="titulo">contato</h1> 
-            <p class="texto">Aqui você verá a melhor forma e maneira de vencer obstáculos </p> 
+            <p class="texto">Os campos com * são de preenchimento obrigatório!</p> 
 
         <!--corpo do formulário-->        
         <form class="contato">
             <!--campos do formulário-->
             <!--campo Nome-->
             <label class="rotulo">
-                Nome
-                <input type="text" class="campo">
+                Nome*
+                <input type="text" class="campo" required>
             </label>
 
             <!--campo E-mail-->
             <label class="rotulo">
-                E-mail
-                <input type="text" class="campo">
+                E-mail*
+                <input type="text" class="campo" required>
             </label>
 
             <!--campo assunto-->
@@ -57,8 +57,8 @@
 
             <!--campo mensagem-->
             <label class="rotulo">
-                Mensagem
-                <textarea class="campo"></textarea>
+                Mensagem*
+                <textarea class="campo" required></textarea>
             </label>
 
             <!--Botão enviar-->

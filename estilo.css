@@ -13,7 +13,7 @@ body{
 .topo{
     background-color: rgb(179, 153, 204);
     padding: 18px;
-    font-size: 9px; /*--adicionado para resolução 320*/
+    font-size: 8px; /*--adicionado para resolução 320*/
 }
 
 .topo a{
@@ -41,6 +41,7 @@ body{
     color: rgb(36, 3, 70);
     padding: 30px;
     text-align: center;
+    font-size: 13px;
 }
 
 .materia{
@@ -55,7 +56,7 @@ body{
 
 .materia h1{
     margin-bottom: 20px;
-    font-size: 28px;
+    font-size: 20px;
 }
 
 .materia img{
@@ -74,6 +75,7 @@ body{
 
 .navegacao{
     display: flex;
+    align-items: center;
 }
 
 .menu a:hover{
@@ -83,13 +85,13 @@ body{
 .titulo{
     text-align: center;
     margin-bottom: 10px;
-    font-size: 46px;
+    font-size: 30px;
 }
 
 .texto{
     text-align: center;
     margin-bottom: 30px;
-    font-size: 24px;
+    font-size: 18px;
     color: rgb(41, 40, 40);
 }
 
@@ -126,7 +128,7 @@ main{
  margin-left: auto;
  margin-right: auto;
  padding-bottom: 50px;
- max-width: 600px;  
+ max-width: 299px;  
 }
 
 textarea.campo{
